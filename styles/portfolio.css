@@ -1,3 +1,8 @@
+/* universal */
+* {
+  padding: 0;
+  margin: 0;
+}
 /* common shared styles */
 body {
   font-family: "Open Sans", sans-serif;
@@ -19,6 +24,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 225px;
 }
 nav > ul {
   display: flex;
@@ -31,4 +37,22 @@ nav a {
 nav li {
   list-style: none;
   margin-right: 51px;
+}
+
+/* header related styles */
+.header {
+  background: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .profile-pic {
+  width: 500px;
+  height: 600px;
+}
+.banner-content {
+  align-items: center;
 }
