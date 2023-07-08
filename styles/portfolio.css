@@ -29,6 +29,11 @@ body {
   margin-bottom: 0;
 }
 
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
 /* nav related styles */
 nav {
   display: flex;
@@ -118,4 +123,13 @@ nav li {
   font-weight: 400;
   line-height: 30px;
   margin-top: 30px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.about-info {
+  text-align: center;
 }
