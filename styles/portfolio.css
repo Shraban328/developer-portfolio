@@ -133,3 +133,17 @@ nav li {
 .about-info {
   text-align: center;
 }
+#what-i-do-discrip{
+padding: 30px 110px;
+}
+.skills-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.skill-title{
+  margin: 35px 60px 30px 20px; 
+}
+.skill-discription{
+  margin: 0 33px;
+}
