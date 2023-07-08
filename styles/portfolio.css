@@ -194,5 +194,14 @@ nav li {
 }
 .cv-download-btn {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+/* footer styles */
+
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 230px;
+  margin-top: 110px;
 }
