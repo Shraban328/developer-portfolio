@@ -59,12 +59,20 @@ nav li {
 /* header related styles */
 .header {
   background: #fff8f3;
-  background-image: url(../images/header_bg.png);
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, left center;
+}
+.navigation-tab {
+  padding: 50px 0 0 30px;
+}
+
+nav > h1 {
+  font-size: 45px;
 }
 .banner {
-  padding: 30px 30px 0px 150px;
+  padding: 30px 30px 0px 250px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,6 +86,7 @@ nav li {
 .banner-content {
   align-items: center;
   width: 560px;
+  /* margin-right: 300px; */
 }
 .banner-greeting {
   font-size: 45px;
@@ -208,7 +217,6 @@ footer {
 .footer-items {
   width: 50%;
   margin-right: 50px;
-  text-align: left;
 }
 
 footer div > p {
