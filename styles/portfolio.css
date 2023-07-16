@@ -78,15 +78,11 @@ nav > h1 {
   justify-content: space-between;
 }
 .banner .profile-pic {
-  width: 584px;
-  height: 676px;
-  margin-top: 47px;
-  margin-right: 60px;
+  width: 50%;
 }
 .banner-content {
   align-items: center;
   width: 560px;
-  /* margin-right: 300px; */
 }
 .banner-greeting {
   font-size: 45px;
@@ -234,11 +230,53 @@ footer div > p {
 textarea {
   display: block;
   margin-bottom: 40px;
-  padding: 18px 350px 18px 30px;
+  padding: 18px 35px;
   color: #757575;
   font-weight: 400;
   font-size: 16px;
   border-radius: 5px;
   background: #fff;
   border: 0;
+  width: 100%;
+}
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .banner,
+  nav,
+  .skills-container,
+  .resume-container,
+  footer,
+  .about-info-container {
+    flex-direction: column;
+  }
+  .navigation-tab {
+    margin: 0;
+  }
+  .banner-content {
+    width: auto;
+  }
+  .banner .profile-pic {
+    width: 100%;
+  }
+  .banner {
+    padding: 0;
+  }
+  .navigation-tab,
+  footer,
+  .about {
+    padding: 20px;
+  }
+
+  .footer-items {
+    width: 100%;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  textarea {
+    width: 80%;
+  }
 }
